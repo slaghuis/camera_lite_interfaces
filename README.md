@@ -7,7 +7,7 @@ Download the code to the src directory of your ROS2 Foxy workspace.
 cd src
 git clone https://github.com/slaghuis/camera_lite_interfaces.git
 cd ..
-colcon build --packages-select camera_lite
+colcon build --packages-select camera_lite_interfaces
 . install/setup.bash
 ```
 
